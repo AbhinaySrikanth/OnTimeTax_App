@@ -1,55 +1,55 @@
 # OnTime Tax Filing App
 
-This Android application is a mobile solution for the official [OnTimeTaxFilings.com](https://ontimetaxfilings.com), allowing users to access tax-related services, file documents, and stay updated—all from their smartphone.
+An Android WebView application for OnTimeTaxFilings.com, offering users quick and easy mobile access to a full suite of tax services. Built with a custom splash screen and clean UI to enhance user experience.
 
-## 🚀 Features
+## 📱 Features
 
-- Splash screen with branding
-- WebView integration for seamless browsing of the official website
-- Lightweight and responsive interface
-- Quick access to tax filing resources
+- 🔗 Loads OnTimeTaxFilings.com in a WebView  
+- 🖼️ Custom splash screen with company branding  
+- 🚀 Optimized for mobile responsiveness  
+- 🔒 Safe browsing experience within the app  
+- 📂 Lightweight and efficient structure  
 
-## 🔧 Technologies Used
+## 🛠️ Tech Stack
 
-- Kotlin
-- Android Studio
-- WebView
-- XML Layouts
+- Android SDK  
+- Kotlin / Java  
+- XML (UI Layout)  
+- Android Studio  
 
-## 📦 Project Structure
+## 🔧 Setup & Installation
 
-app/
-└── src/
-└── main/
-├── java/
-│ └── com.ontime.taxfiling/
-│ └── MainActivity.kt
-└── res/
-├── layout/
-└── drawable/
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/your-username/ontime-tax-app.git
+Open the project in Android Studio.
 
+Update the WebView URL (if needed) inside MainActivity.kt:
 
-
-## 🛠️ Setup & Installation
-
-1. Clone the repository:
-git clone https://github.com/your-username/ontime-tax-app.git
-
-markdown
+kotlin
 Copy
 Edit
-2. Open in Android Studio.
-3. Replace the URL in `MainActivity.kt` WebView with your desired target (if needed).
-4. Build and run on an emulator or physical Android device.
+myWebView.loadUrl("https://www.ontimetaxfilings.com")
+Replace splash images in the res/drawable folder:
 
-## 📱 Screenshots
+splash_logo.png
 
-*Add splash screen and WebView screenshots here if available.*
+splash_background.xml
 
-## 🤝 Contributing
+Run the app on an emulator or connected Android device.
 
-Contributions are welcome! Please open an issue or pull request to suggest improvements.
+📦 Deliverables
+This app was delivered as part of an internship assignment and built to demonstrate:
 
-## 📝 License
+Android app lifecycle management
 
-This project is for educational and demonstration purposes. Not affiliated directly with OnTimeTaxFilings.com.
+UI/UX fundamentals
+
+Integration of online content using WebView
+
+Efficient splash screen configuration
+
+🧑‍💻 Developer
+Abhinay Srikanth Khamithkar
+Android Developer Intern
+JSMV Resource IT Staffing Technologies
